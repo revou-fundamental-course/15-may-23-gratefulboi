@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Katik! Kalkulator Matematik</title>
+    <link rel="stylesheet" href="Style.css" />
+    <script defer src="Script.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <span class="title">Katik</span>
+      <span class="sub-title">Kalkulator Matematik</span>
+    </header>
+    
+    <main>
+        <div class="card">
+          <h3>Hitung Luas Persegi</h3>
+
+        <div id="gambar"> 
+        <img
+          src="https://id-static.z-dn.net/files/db0/e06be611e00360848cff87d259845e16.jpg"
+          alt="Gambar Persegi"
+          />
+        </div>
+
+        <div class="formula-description">
+            <p>Rumus Luas Persegi yaitu:</p>
+            <p>L = Sisi x Sisi</p>
+
+            <p>Dimana:</p>
+            <p>L = Luas</p>
+            <p>S = Sisi</p>
+        </div>
+
+        <div>
+          <form>
+            <input type="number" id="sisi_luas" name="sisi-luas" required placeholder="Masukan panjang sisi" />
+
+            <p>L = S x S</p>
+            <p class="result-luas" id="perhitungan-luas"></p>
+            <p class="result-luas" id="output-luas">Luas Persegi  ?? <span></span></p>
+          </form>
+        
+        <div id="btn">
+          <button name="hitung-luas" onclick="hitungLuas()">HITUNG</button>
+          <button name="reset-luas" onclick="resetAwal()">RESET</button>
+        </div>
+        <br>
+        </div>
+        
+        <div class="card2">
+            <h3>Hitung Keliling Persegi</h3>
+
+            <div id="gambar"> 
+                <img
+                  src="https://id-static.z-dn.net/files/db0/e06be611e00360848cff87d259845e16.jpg"
+                  alt="Gambar Persegi"
+                  />
+                </div>
+    
+                <div class="formula-description">
+                    <p>Rumus Keliling Persegi yaitu:</p>
+                    <p>K = 4 x Sisi</p>
+        
+                    <p>Dimana:</p>
+                    <p>K = Keliling</p>
+                    <p>S = Sisi</p>
+                </div>
+        
+                <div>
+                  <form>
+                    <input type="number" id="sisi_keliling" name="sisi-keliling" required placeholder="Masukan panjang sisi" />
+        
+                    <p>K = 4 x Sisi</p>
+                    <p class="result-keliling" id="perhitungan-keliling"></p>
+                    <p class="result-keliling" id="output-keliling">Keliling Persegi ?? <span></span></p>
+                  </form>
+                
+                <div id="btn">
+                  <button name="hitung-keliling" onclick="hitungKeliling()">HITUNG</button>
+                  <button name="reset-keliling" onclick="resetAwal2()">RESET</button>
+                </div>
+                <br>
+                </div>
+        
+        </div>
+    </main>
+
+    <footer>
+      <span class="footer">Terimakasih!</span>
+    </footer>
+  </body>
+</html>
