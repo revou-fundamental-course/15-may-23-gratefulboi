@@ -1,0 +1,65 @@
+body{
+    background: silver
+}
+
+#gambar{
+    display:flex;
+    justify-content: center;
+}
+
+header{
+    background-color: #acadad;
+    text-align: center;
+}
+
+footer{
+    background-color: #acadad;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+span.title{
+font-weight:bold ;
+font-size: larger;
+color: white;
+}
+
+span.sub-title{
+    font-size: small;
+    color: bisque;
+}
+
+span.footer{
+    color: beige;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+    font-size: large;
+
+}
+
+.card{
+    background: #dddcdd;
+}
+
+.card2{
+    background: #a3a7a0;
+}
+
+h3{
+    text-align: center;
+}
+
+input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+#btn{
+    display:flex;
+    justify-content: center;
+}
